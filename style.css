@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    line-height: 64px;
+}
+header{
+    margin-left: 50px;
+}
+main{
+    height: 440px;
+    width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slides-container{
+    position: relative;
+
+}
+.img-tag{
+    height: 300px;
+    width: 250px;
+    display: block;
+}
+.nominee{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    text-align: center;
+    color: white;
+}
+.prev{
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+    color: white;
+    visibility: hidden;
+    
+}
+.next{
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+    right: 1px;
+    color: white;
+    visibility: hidden;
+} 
+.slides-container:hover .prev, .slides-container:hover .next{
+    visibility:visible;
+}
+footer{
+    text-align: center;
+}
